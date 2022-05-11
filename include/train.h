@@ -20,7 +20,7 @@ class Train {
         return cage;
     }
     Train() : countOp(0), first(nullptr), tail(nullptr) {}
-    void addCage(bool StateOfLight); // добавить вагон с начальным состоянием лампочки
+    void addCage(bool light); // добавить вагон с начальным состоянием лампочки
     int getLength();          // вычислить длину поезда
     int getOpCount();         // вернуть число переходов (из вагона в вагон)
 };
